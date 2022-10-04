@@ -1,3 +1,105 @@
 body{
     font-family: Ubuntu;
+    background-color: #4F4F5E;
+    color: #F1F2F8;
+}
+
+#main{
+    min-height: 90vh;
+}
+
+#logo{
+    margin-left: 58px;
+}
+
+#logo img{
+    width: 58px;
+    height: 58px;
+}
+
+#logo span{
+    position: absolute;
+    padding: 20px 0 0 15px;
+    line-height: 18x;
+}
+
+#footer{
+    width: 80%;
+    margin-top: 30px;
+}
+
+#footer .footer-item{
+    display: inline-block;
+    margin-left: 38px;
+}
+
+#main-menu-items{
+    margin-right: 17px;
+}
+
+#main-menu-items .main-menu-item{
+    float: right;
+    height: 22px;
+    width: 22px;
+    background-color: #F4F4F4;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#title{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 803px;
+}
+
+.quick-start{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27.58px;
+}
+
+.quick-start .smaller-text{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.09px;
+}
+
+.subscribe p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.why-you-like{
+    margin-top: 118px;
+
+}
+
+.why-you-like i{
+    color: black;
+    background-color: #F1F2F8;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.subscribe input{
+    display: inline-block;
+    padding: 18px 159px 18px 25px;
+    background-color: #F1F2F8;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.subscribe button{
+    padding: 18px 33px 18px 33px;
+    background-color: #F1F2F8;
+    border-color: #F1F2F8;
+    border-radius: 10px;
+    font-size: 18px;
 }
