@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(62.36deg, rgba(121, 38, 255, 0.846) 4.3%, rgba(81, 173, 224, 0) 100%);
+    font-family: 'Georama';
+}
+
+#nav-bar {
+    background-color: #FEFEFE;
+}
+
+#logo {
+    width: 132px;
+    height: 109px;
+}
+
+#main-menu {
+    display: inline-block;
+    width: 75%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+
+    
+    padding-bottom: 2%;
+}
+
+#main-menu .main-menu-items {
+    list-style: none;
+    padding-left: 95px;
+}
+
+#main-menu .main-menu-items li {
+    float: left;
+    margin-right: 2%;
+}
+
+.right-menu{
+    display: inline-block;
+
+    position: absolute;
+    margin-top: 2%;
+}
+
+.right-menu button{
+    width: 122px;
+    height: 45px;
+    border: 1px solid #3F4FE1;
+    border-radius: 25px;
+    background-color: transparent;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.right-menu button:nth-child(2){
+    margin-left: 45px;
+    /* color: #FFFFFF;
+    background-color: #7934EA; */
+}
+
+.right-menu button:hover{
+    color: #FFFFFF;
+    background-color: #7934EA;
+}
