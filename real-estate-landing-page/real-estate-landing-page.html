@@ -3,17 +3,25 @@
     <head>
         <title>Real estate</title>
         <link rel="stylesheet" href="./real-estate-landing-page.css">
+        
+        <!-- Get Font Awesome 4 -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+        <!-- Get Google Font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chicle&family=Georama&family=Sansation">
+        
         <script src="./real-estate-landing-page.js"></script>
     </head>
     <body>
-        <div id="nav-bar">
-            <!-- <div class="nav-bar-content"> -->
-                <img src="./Resources/Real_estate_logo.png" alt="logo" id="logo"> 
-            <!-- </div> -->
-            <div id="main-menu">
-                <ul class="main-menu-items">
-                    <li><a class="main-menu-item" href="#"></a>Buy</li>
-                    <li><a class="main-menu-item" href="#"></a>Rent</li>
+        <section id="default-view">
+            <div id="nav-bar">
+                <!-- <div class="nav-bar-content"> -->
+                    <img src="./Resources/Real_estate_logo.png" alt="logo" id="logo"> 
+                    <!-- </div> -->
+                    <div id="main-menu">
+                        <ul class="main-menu-items">
+                            <li><a class="main-menu-item" href="#"></a>Buy</li>
+                            <li><a class="main-menu-item" href="#"></a>Rent</li>
                     <li><a class="main-menu-item" href="#"></a>Sold</li>
                 </ul>
             </div>
@@ -22,5 +30,36 @@
                 <button type="submit">Login</button>
             </div>
         </div>
+
+        <section id="top-section">
+            <div>
+                <div class="introduction">
+                    <p>Discover a PLACE you will</p>
+                    <p>love to LIVE</p>
+                </div>
+                <div class="trading-methods">
+                    <ul>
+                        <li class="trading-method active">
+                            <span>Buy</span>
+                        </li>
+                        <li class="trading-method">
+                            <span>Rent</span>
+                        </li>
+                        <li class="trading-method">
+                            <span>Sold</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search-box">
+                    <div>
+                        <input type="text" placeholder="Washington,DC">
+                        <div class="search-button centered">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
     </body>
 </html>

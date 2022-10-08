@@ -4,12 +4,14 @@ body {
 }
 
 #nav-bar {
+    max-height: 23vh;
     background-color: #FEFEFE;
+
 }
 
 #logo {
-    width: 132px;
-    height: 109px;
+    width: 109px;
+    height: 132px;
 }
 
 #main-menu {
@@ -68,3 +70,94 @@ body {
     color: #FFFFFF;
     background-color: #7934EA;
 }
+
+
+#top-section{
+    background-image: url(./Resources/Top_image.png);
+    background-repeat: round;
+    border-radius: 10px;
+    height: 75vh;
+}
+
+#top-section .introduction{
+    font-family: 'Chicle';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    padding-top: 31px;
+    color: #FFFFFF;
+}
+#top-section .introduction p{
+    margin: 0 0 0 0;
+}
+
+#top-section .trading-methods{
+    text-align: center;
+}
+
+#top-section .trading-methods ul{
+    list-style: none;
+    display: inline-block;
+    background: rgba(21, 21, 21, 0.45);
+    padding-inline-start: 0;
+}
+
+#top-section .trading-methods ul li{
+    float: left;
+    width: 136px;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: Georama;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+
+#top-section .trading-methods ul .active{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+#top-section .search-box{
+    text-align: center;
+}
+
+#top-section .search-box input{
+    width: 700px;
+    height: 56px;
+    border-width:0;
+    padding: 0;
+    margin-right: -5px;
+    border-radius: 10px;
+
+    padding-left: 30px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+    font-family: 'Sansation';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+#top-section .search-box .search-button{
+    padding-top: 4px;
+    height: 90px;
+    width: 90px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.centered{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
