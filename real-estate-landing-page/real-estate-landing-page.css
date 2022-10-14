@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(62.36deg, rgba(121, 38, 255, 0.846) 4.3%, rgba(81, 173, 224, 0) 100%);
     font-family: 'Georama';
+    margin: 17px;
 }
 
 #nav-bar {
@@ -161,3 +162,36 @@ body {
     align-items: center;
 }
 
+#helps{
+    text-align: center;
+    background-color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+#helps h2{
+    padding-top: 40px;
+}
+
+#helps .help-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 30px;
+    padding-right: 30px;
+    column-gap: 30px;
+}
+
+#helps .help-item button{
+    padding: 7px;
+}
+
+.portfolio-content{
+    display: none;
+}
+
+.portfolio{
+    display: grid;
+    grid-template-columns: unset;
+    grid-auto-flow: column;
+    grid-auto-columns: 20%;
+    overflow-x: scroll;
+}
