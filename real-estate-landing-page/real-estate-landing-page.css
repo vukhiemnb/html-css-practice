@@ -184,14 +184,74 @@ body {
     padding: 7px;
 }
 
-.portfolio-content{
-    display: none;
+#gallery{
+    background-color: #FFFFFF;
+}
+
+#gallery .section-description, .section-title{
+    text-align: center;
 }
 
 .portfolio{
     display: grid;
-    grid-template-columns: unset;
-    grid-auto-flow: column;
-    grid-auto-columns: 20%;
-    overflow-x: scroll;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr); 
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.portfolio .portfolio-item{
+    padding: 5px;
+    text-align: justify;
+}
+
+.portfolio .portfolio-item:nth-child(3n+1){
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.portfolio .portfolio-item:nth-child(3n+2){
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#gallery .portfolio .portfolio-item:nth-child(1){
+    background-image: url(./Resources/gallery_1.jpg);
+    background-size: cover;
+}
+#gallery .portfolio .portfolio-item:nth-child(2){
+    background-image: url(./Resources/gallery_2.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gallery .portfolio .portfolio-item:nth-child(3){
+    background-image: url(./Resources/gallery_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gallery .portfolio .portfolio-item:nth-child(4){
+    background-image: url(./Resources/gallery_4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gallery .portfolio .portfolio-item:nth-child(5){
+    background-image: url(./Resources/gallery_5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gallery .portfolio .portfolio-item:nth-child(6){
+    background-image: url(./Resources/gallery_6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gallery .portfolio .portfolio-item:nth-child(7){
+    background-image: url(./Resources/gallery_7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
