@@ -1,3 +1,121 @@
 html{
     font-family: Inter;
+    width: 1440px;
+    margin-left: 240px;
 }
+
+body{
+    text-align: center;
+}
+
+#default-view{
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+
+/* Default view section */
+#navigation{
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(33, 123, 244, 0.1);
+}
+
+#logo{
+    display: inline-flex;
+    align-items: center;
+    /* width: 150px; */
+}
+
+#logo .logo-image{
+    width: 34px;
+    height: 34px;
+}
+
+#logo .logo-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #2B2B39;
+
+    margin-left: 6px;
+}
+
+#main-menu{
+    margin-left: 72px;
+    display: inline-block;
+}
+
+#main-menu .menu-items{
+    padding-inline-start: 0;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+#main-menu .menu-item{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+
+    color: #2B2B39;
+}
+
+#main-menu .menu-item:nth-of-type(n+2){
+    margin-left: 32px;
+}
+
+.right-menu{
+    margin-left: 379px;
+    display: inline-block;
+}
+
+.search-box{
+    display: inline-block;
+    border-bottom: 1px solid #E5E5E5;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.search-box input{
+    border: none;
+}
+
+.right-menu .login-button{
+    margin-left: 42px;
+
+    display: inline-block;
+    padding: 18px 43px 18px 44px;
+
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+/* Why join section */
+
+/* Achievement section */
+
+/* Community features section */
+
+/* Active members section */
+
+/* Get app section */
+
+/* Latest news section */
+
+/* Footer section */
