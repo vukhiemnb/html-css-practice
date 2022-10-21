@@ -1,15 +1,12 @@
 html{
     font-family: Inter;
-    width: 1440px;
-    margin-left: 240px;
-}
-
-body{
-    text-align: center;
+    /* width: 1440px; */
+    /* margin-left: 240px; */
 }
 
 #default-view{
     background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    text-align: center;
 }
 
 /* Default view section */
@@ -103,7 +100,10 @@ body{
     text-align: center;
 
     color: #FFFFFF;
+}
 
+.default-view-content{
+    text-align: left;
 }
 
 /* Why join section */
