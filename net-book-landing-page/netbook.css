@@ -4,14 +4,16 @@ html{
 
 body{
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #default-view{
     background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
-    text-align: center;
+    height: 100vh;
 }
 
 /* Default view section */
+/* Navigation section */
 #navigation{
     padding: 22px 135px 18px 135px;
     display: flex;
@@ -104,8 +106,90 @@ body{
 }
 
 .default-view-content{
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+/* Default view content section */
+.default-view-left-content{
+    margin-top: 125px;
+    display: inline-block;
+}
+
+.default-view-left-content div:first-child{
+    width: 117px;
+    padding: 12px 30px 12px 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    color: #217BF4;
+    background-color: rgba(33, 123, 244, 0.1);
+    border-radius: 8px;
+}
+
+.default-view-left-content .introduction .first-text{
+    width: 515px;
+    text-align: left;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    color: #0A093D;
+}
+
+.default-view-left-content .introduction .second-text{
+    text-align: left;
+    width: 491px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #656464;
+}
+
+.default-view-left-content .buttons{
+    margin-top: 42px;
     text-align: left;
 }
+
+.default-view-left-content .buttons span{
+    padding: 24px 42px 24px 42px;
+    border-radius: 14px;
+
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.default-view-left-content .buttons span:first-child{
+    color: #FFFFFF;
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+}
+
+.default-view-left-content .buttons span:last-child{
+    color: #217BF4;
+    border: 1px solid rgba(33, 123, 244, 0.5);
+}
+
+.default-view-right-content{
+    margin-top: 72px;
+    float: right;
+    background-image: url("./Resources/default-view-right-content.png");
+    background-size: contain;
+    width: 585.52px;
+    height: 501.47px;
+}
+
 
 /* Why join section */
 
